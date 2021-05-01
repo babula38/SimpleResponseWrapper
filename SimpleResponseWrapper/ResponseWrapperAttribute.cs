@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace SimpleResponseWrapper
 {
-    public class ResponseWrapperActionFilterAttribute : ActionFilterAttribute
+    public class ResponseWrapperAttribute : ActionFilterAttribute
     {
         public override void OnActionExecuted(ActionExecutedContext context)
         {
